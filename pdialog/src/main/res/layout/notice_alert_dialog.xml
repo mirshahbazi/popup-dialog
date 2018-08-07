@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_margin="@dimen/dialog_margin"
+              android:background="@drawable/bg_notice_alert_dialog"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dialog_padding"
+        android:paddingRight="@dimen/dialog_padding"
+        android:paddingTop="@dimen/large_padding">
+
+        <TextView
+            android:id="@id/notice_dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:ellipsize="end"
+            android:maxLines="1"
+            tools:text="提醒"
+            android:textColor="@color/dialog_title"
+            android:textSize="@dimen/font_large_size"
+            android:textStyle="bold"
+            android:visibility="gone"
+            tools:visibility="visible"/>
+
+        <TextView
+            android:textColor="@color/dialog_message"
+            android:id="@id/notice_dialog_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="2dip"
+            android:textSize="@dimen/font_large_size"
+            tools:text="Popupdialog 更灵活添加布局。写好布局便可以链式调用。"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="16dip"
+        android:background="@color/grey_divier"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@id/notice_dialog_button_cancel"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="取消"
+            android:textColor="@drawable/selector_button_text"
+            android:textSize="16sp"
+            android:visibility="gone"
+            tools:visibility="visible"/>
+
+        <View
+            android:id="@id/notice_dialog_divier_line"
+            android:layout_width="@dimen/divier"
+            android:layout_height="match_parent"
+            android:background="@color/grey_divier"
+            android:visibility="gone"
+            tools:visibility="visible"/>
+
+        <Button
+            android:id="@id/notice_dialog_button_ok"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="确定"
+            android:textColor="@drawable/selector_button_text"
+            android:textSize="@dimen/font_large_size"/>
+    </LinearLayout>
+
+
+</LinearLayout>
