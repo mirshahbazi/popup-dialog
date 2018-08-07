@@ -13,7 +13,7 @@ import android.view.View;
 import android.view.animation.Interpolator;
 import android.widget.FrameLayout;
 
-import cn.mam.popup.R;
+import cn.ymex.popup.R;
 
 
 public class SpotsProgressView extends FrameLayout {

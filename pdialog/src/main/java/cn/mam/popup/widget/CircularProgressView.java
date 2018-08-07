@@ -18,7 +18,7 @@ import android.view.animation.LinearInterpolator;
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.mam.popup.R;
+import cn.ymex.popup.R;
 
 
 /**

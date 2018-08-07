@@ -22,7 +22,8 @@ import android.view.animation.Transformation;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
-import cn.mam.popup.R;
+import cn.ymex.popup.R;
+
 
 /**
  * @author Silvestr Predko.

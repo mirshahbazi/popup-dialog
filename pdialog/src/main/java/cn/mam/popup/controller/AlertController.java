@@ -30,7 +30,8 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import cn.mam.popup.dialog.PopupDialog;
-import cn.mam.popup.R;
+import cn.ymex.popup.R;
+
 
 /**
  * 默认 Alert Dialog
@@ -122,7 +123,7 @@ public class AlertController implements DialogControllable {
                 } else {
                     tvTitle.setVisibility(View.GONE);
                 }
-                TextView tvMessage =  find(layout,R.id.notice_dialog_message);
+                TextView tvMessage =  find(layout, R.id.notice_dialog_message);
                 tvMessage.setGravity(messageGravity);
                 tvMessage.setText(TextUtils.isEmpty(mMsg) ? "" : mMsg);
 

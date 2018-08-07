@@ -28,7 +28,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import cn.mam.popup.dialog.PopupDialog;
-import cn.mam.popup.R;
+import cn.ymex.popup.R;
+
 
 /**
  * progress dialog

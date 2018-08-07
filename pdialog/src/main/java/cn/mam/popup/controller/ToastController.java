@@ -13,9 +13,9 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.reflect.Method;
 
-import cn.mam.popup.R;
 import cn.mam.popup.dialog.PopupDialog;
 import cn.mam.popup.widget.TransparentDrawable;
+import cn.ymex.popup.R;
 
 /**
  * Created by ymexc on 2017/11/20.
